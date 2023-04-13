@@ -1,4 +1,4 @@
 # Dive Into Django
-My first Django project.
+My implementation of Django tutorial project.
 ## License
 This project is licensed under the MIT License.
