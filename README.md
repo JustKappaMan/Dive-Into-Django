@@ -7,3 +7,4 @@ This project is licensed under the MIT License.
 ## Credits
 Big thanks to:
 * [JetBrains](https://www.jetbrains.com/community/opensource) for Open Source development license
+* Viacheslav Slavinsky for [GlassTTY VT220 TrueType](http://sensi.org/~svo/glasstty/) font
