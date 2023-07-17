@@ -10,7 +10,7 @@
     </head>
     <body>
         {% if latest_question_list %}
-            <h1 class="page-header">The latest 5 poll questions</h1>
+            <h1 class="text-centered">The latest 5 poll questions</h1>
             <ul>
                 {% for question in latest_question_list %}
                 <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>

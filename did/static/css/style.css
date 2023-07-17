@@ -1,53 +1,64 @@
+:root {
+    --retroGreen: #33FF33;
+    --retroBlack: #282828;
+}
+
 @font-face {
     font-family: 'Glass TTY VT220';
     src: local('Glass TTY VT220'),
-         url('../fonts/Glass_TTY_VT220.woff2') format('woff2'),
-         url('../fonts/Glass_TTY_VT220.woff') format('woff'),
-         url('../fonts/Glass_TTY_VT220.ttf') format('truetype'),
-         url('../fonts/Glass_TTY_VT220.otf') format('opentype');
+      url('../fonts/Glass_TTY_VT220.woff2') format('woff2'),
+      url('../fonts/Glass_TTY_VT220.woff') format('woff'),
+      url('../fonts/Glass_TTY_VT220.ttf') format('truetype'),
+      url('../fonts/Glass_TTY_VT220.otf') format('opentype');
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #282828;
+    background: var(--retroBlack);
     font-family: 'Glass TTY VT220', monospace;
-    color: #33FF33;
+    color: var(--retroGreen);
 }
 
 body {
     padding: 2em;
 }
 
-.page-header {
-    margin-bottom: 1em;
-    text-align: center;
+fieldset {
+    padding: .25em .75em .75em;
+    border: 1px dashed var(--retroGreen);
 }
 
-.error-message {
-    margin: .5em;
+ul {
+    margin: 1em .5em;
 }
 
 li {
     margin: .5em;
-    font-size: 1.25em;
-}
-
-fieldset {
-    padding: .25em .75em .75em;
-    border: 1px dashed #33FF33;
 }
 
 input[type='radio'] {
     margin: .5em 0 .5em .5em;
-    accent-color: #33FF33;
+    accent-color: var(--retroGreen);
 }
 
 input[type='submit'] {
     height: 1.5em;
     width: 4em;
     margin-top: 1em;
-    border: 1px dashed #33FF33;
+    border: 1px dashed var(--retroGreen);
     font-size: 1em;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+p.error-message {
+    margin: .5em;
 }
