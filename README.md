@@ -8,3 +8,4 @@ This project is licensed under the MIT License.
 Big thanks to:
 * [JetBrains](https://www.jetbrains.com/community/opensource) for Open Source development license
 * Viacheslav Slavinsky for [GlassTTY VT220 TrueType](http://sensi.org/~svo/glasstty/) font
+* [Freepik](https://www.flaticon.com/authors/freepik) for [favicons](https://www.flaticon.com/free-icon/binary-code_2742024)
