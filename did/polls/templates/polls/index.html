@@ -15,7 +15,7 @@
         <meta name="msapplication-TileColor" content="#282828">
         <meta name="msapplication-config" content="{% static 'favicons/browserconfig.xml' %}">
         <meta name="theme-color" content="#282828">
-        <title>The latest 5 poll questions</title>
+        <title>The latest 10 poll questions</title>
     </head>
     <body>
         {% if latest_question_list %}
@@ -26,7 +26,7 @@
                 {% endfor %}
             </ul>
         {% else %}
-            <p>No polls are available.</p>
+            <h1 class="text-centered">No polls are available</h1>
         {% endif %}
     </body>
 </html>
