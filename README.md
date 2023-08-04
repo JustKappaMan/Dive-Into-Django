@@ -1,5 +1,6 @@
 # Dive Into Django
 ![MIT License](https://img.shields.io/github/license/JustKappaMan/Dive-Into-Django)
+![Code style: black](https://img.shields.io/badge/code%20style-black-black)
 
 My implementation of Django tutorial project.
 ## License
